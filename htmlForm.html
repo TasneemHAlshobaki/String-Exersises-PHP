@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <style>
+
+        body{
+            background: #dbdbdb; 
+        }
+        .col-12{
+            border-radius: 25px;
+            background: #dbdbdb;
+            padding: 20px;
+            width: auto;
+            height: auto;
+            border-color: #dbdbdb;
+            box-shadow: 5px 5px 5px rgb(255, 255, 255);
+            margin: 20%;
+
+        }
+
+        .form-group{
+            padding: 1%;
+            margin: auto;
+            text-align: center;
+            width: 80%;
+        }
+        .form-control{
+            margin: auto;
+            align-items: center;
+        }
+        .fa-solid .fa-book{
+            color: bisque;
+        }
+    </style>
+
+</head>
+<body>
+    <form method="POST" action="test1.php">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" class="form-control">
+                    <i class="fa-solid fa-book" ></i>
+                </div>
+                <div class="form-group">
+                    <label>Edition</label>
+                    <input type="number" name="edition" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Publish Year</label>
+                    <input type="number" name="year" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Auther Name</label>
+                    <input type="text" name="authere_name" class="form-control">
+                </div>
+            <button type="submit" class="byn btn=primary">Save</button>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
